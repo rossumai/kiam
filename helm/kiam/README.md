@@ -128,6 +128,7 @@ Parameter | Description | Default
 `agent.image.repository` | Agent image | `quay.io/uswitch/kiam`
 `agent.image.tag` | Agent image tag | `v3.4`
 `agent.image.pullPolicy` | Agent image pull policy | `IfNotPresent`
+`agent.initContainers | List of init containers to run | []
 `agent.dnsPolicy` | Agent pod DNS policy | `ClusterFirstWithHostNet`
 `agent.whiteListRouteRegexp` | Agent pod whitelist metadata API path argument regex  | `{}`
 `agent.extraArgs` | Additional agent container arguments | `{}`

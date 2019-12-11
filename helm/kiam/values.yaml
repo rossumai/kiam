@@ -22,6 +22,10 @@ agent:
   ##
   # whiteListRouteRegexp:
 
+  ## run custom init container(s)
+  ##
+  initContainers: []
+
 
   ## Logging settings
   ##
